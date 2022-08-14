@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Renan J Paula</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="/assets/img/my-photo.jpeg" alt="Foto de Renan J Paula" class="photo">
+
+            <h1 class="title">
+                Olá, <br>eu sou Renan J Paula
+            </h1>
+
+            <div class="information">
+                <p class="job">Tech Lead no S3 Bank</p>
+                <p class="location">São Paulo - BR</p>
+                <p class="phone">
+                    <a href="tel:(16) 9 9999-9999">(16) 9 9999-9999</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@mail.com">ex@mail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/tools/nodejs.svg" alt="Nodejs" title="Nodejs">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/react.svg" alt="React" title="React">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/git.svg" alt="GIT" title="GIT">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/java.svg" alt="Java" title="Java">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Ingles</li>
+                    <li>Italiano</li>
+                    <li>Espanhol</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>
+                            Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
+                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
+                            iste.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>
+                            Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
+                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
+                            iste.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/js/acordeon.js"></script>
+</body>
+
+</html>

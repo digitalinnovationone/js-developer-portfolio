@@ -1,0 +1,21 @@
+<svg width="2560" height="1964" viewBox="0 0 2560 1964" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_835_19)">
+<rect opacity="0.67" width="235.957" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 1113.38 -1182.65)" fill="#4314CB"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 916.707 -1052.28)" fill="#8C35EC"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 720.036 -921.907)" fill="#BB44F0"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 523.366 -791.536)" fill="#E554F3"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 326.696 -661.165)" fill="#F664E4"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 130.026 -530.794)" fill="#F974CC"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -66.6465 -400.423)" fill="#FB85B9"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -263.317 -270.052)" fill="#FD97AE"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -459.987 -139.681)" fill="#FEA9AA"/>
+<rect width="235.958" height="1328.39" transform="matrix(-0.833501 0.552519 0.547264 0.83696 -656.658 -9.3103)" fill="#FFC9BB"/>
+</g>
+<defs>
+<filter id="filter0_f_835_19" x="-1650" y="-2173.76" width="4680.37" height="4137" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="300" result="effect1_foregroundBlur_835_19"/>
+</filter>
+</defs>
+</svg>
