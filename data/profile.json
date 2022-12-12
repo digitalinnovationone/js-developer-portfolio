@@ -1,5 +1,5 @@
 {
-  "name": "Renan e Assis França",
+  "name": "Renan de Assis França",
   "photo": "https://avatars.githubusercontent.com/u/112978343?v=4",
   "job": "DesenvolvedorFront-End",
   "location": "São Paulo - SP",
@@ -8,28 +8,20 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "React",
+        "name": "Work in progress...",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
