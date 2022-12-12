@@ -20,23 +20,23 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "Work in progress...",
+        "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       }
     ],
     "softSkills": [
+      "Proatividade",
       "Empatia",
-      "Liderança",
+      "Colaboração",
       "Trabalho em equipe",
       "Flexibilidade",
-      "Organização"
+      "Planejamento"
     ]
   },
   "languages": [
-    "Português BR",
+    "Português (Nativo)",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (básico)"
   ],
   "portfolio": [
     {
@@ -52,19 +52,25 @@
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Comprador / Pan-Metal Indústia Metalúrgica Ltda.",
+      "period": "2019 - 2022",
+      "description": "Comprador de materias e administrador de contratos. Key User do ERP (Oracle)."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Programador de Produção / Pan-Metal Indústia Metalúrgica Ltda.",
+      "period": "2019",
+      "description": "Atuando na programação de produção, de acordo com o pedido do Cliente."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Waiter / Basil Pizza - Ireland",
+      "period": "2018",
+      "description": "Experiência Internacional, trabalhando na Irlanda."
+    },
+    {
+      "name": "Estagiário / Nestlé",
+      "period": "2014 - 2017",
+      "description": "Estagiário no setor de Projetos, atuando com foco em Compras e Planejamento."
     }
+    
   ]
 }
