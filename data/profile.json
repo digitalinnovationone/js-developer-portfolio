@@ -1,10 +1,11 @@
 {
   "name": "Renan de Assis França",
   "photo": "https://avatars.githubusercontent.com/u/112978343?v=4",
-  "job": "DesenvolvedorFront-End",
+  "job": "Desenvolvedor Front-End",
   "location": "São Paulo - SP",
-  "phone": "+55(12) 99619-0019",
+  "phone": "+55(12) 99619-0019", 
   "email": "renanfranca.dev@gmail.com",
+  "about":"Profissional em transição de carreira para a área de Tecnologia, voltado a desenvolvimento web. Formado em Engenharia de Produção Mecânica, com experiência em Supply Chain, do planejamento à área de compras, em diferentes segmentos da indústria. Participação e coordenação de projetos, voltados a melhorias e redução de custos.<br>Todos esses anos de estudo em engenharia e trabalho na indústria, contribuíram para o ganho de experiência e habilidades em diferentes setores, onde hoje, busco levar para o novo ramo, o qual estou me aplicando. O Primeiro contato com o setor de desenvolvimento, foi no projeto de implementação de um novo ERP, onde fui Key User. Interesse em tecnologia e inovação foram cruciais para a decisão da transição de carreira.<br>Facilidade para me adaptar as novas funções, em diferentes tipos de negócios, trabalhando em equipe, agilidade para novos aprendizados, motivação por desafios e desenvolvimento de habilidades.<br>Atualmente estou desenvolvendo habilidades em React, JavaScript, HTML e CSS.",
   "skills": {
     "hardSkills": [
       {
