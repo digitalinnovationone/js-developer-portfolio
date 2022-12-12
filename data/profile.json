@@ -1,50 +1,44 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
+  "name": "Renan de Assis França",
+  "photo": "https://avatars.githubusercontent.com/u/112978343?v=4",
+  "job": "Desenvolvedor Front-End",
   "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "phone": "+55(12) 99619-0019", 
+  "email": "renanfranca.dev@gmail.com",
+  "about":"Profissional em transição de carreira para a área de Tecnologia, voltado a desenvolvimento web. Formado em Engenharia de Produção Mecânica, com experiência em Supply Chain, do planejamento à área de compras, em diferentes segmentos da indústria. Participação e coordenação de projetos, voltados a melhorias e redução de custos.<br>Todos esses anos de estudo em engenharia e trabalho na indústria, contribuíram para o ganho de experiência e habilidades em diferentes setores, onde hoje, busco levar para o novo ramo, o qual estou me aplicando. O Primeiro contato com o setor de desenvolvimento, foi no projeto de implementação de um novo ERP, onde fui Key User. Interesse em tecnologia e inovação foram cruciais para a decisão da transição de carreira.<br>Facilidade para me adaptar as novas funções, em diferentes tipos de negócios, trabalhando em equipe, agilidade para novos aprendizados, motivação por desafios e desenvolvimento de habilidades.<br>Atualmente estou desenvolvendo habilidades em React, JavaScript, HTML e CSS.",
+
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
+      "Proatividade",
       "Empatia",
-      "Liderança",
+      "Colaboração",
       "Trabalho em equipe",
       "Flexibilidade",
-      "Organização"
+      "Planejamento"
     ]
   },
   "languages": [
-    "Português BR",
+    "Português (Nativo)",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (básico)"
   ],
   "portfolio": [
     {
@@ -60,19 +54,25 @@
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Comprador / Pan-Metal Indústia Metalúrgica Ltda.",
+      "period": "2019 - 2022",
+      "description": "Comprador de materias e administrador de contratos. Key User do ERP (Oracle)."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Programador de Produção / Pan-Metal Indústia Metalúrgica Ltda.",
+      "period": "2019",
+      "description": "Atuando na programação de produção, de acordo com o pedido do Cliente."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Waiter / Basil Pizza - Ireland",
+      "period": "2018",
+      "description": "Experiência Internacional, trabalhando na Irlanda."
+    },
+    {
+      "name": "Estagiário / Nestlé",
+      "period": "2014 - 2017",
+      "description": "Estagiário no setor de Projetos, atuando com foco em Compras e Planejamento."
     }
+    
   ]
 }
