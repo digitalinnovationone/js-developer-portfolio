@@ -5,6 +5,7 @@
     "location": "São Paulo - SP",
     "phone": "+55(12) 99619-0019", 
     "email": "renanfranca.dev@gmail.com",
+    "github": "https://github.com/RenanFrancaDev",
     "about":"Profissional em transição de carreira para a área de Tecnologia, voltado a desenvolvimento web. Formado em Engenharia de Produção Mecânica, com experiência em Supply Chain, do planejamento à área de compras, em diferentes segmentos da indústria. Participação e coordenação de projetos, voltados a melhorias e redução de custos.<br>Todos esses anos de estudo em engenharia e trabalho na indústria, contribuíram para o ganho de experiência e habilidades em diferentes setores, onde hoje, busco levar para o novo ramo, o qual estou me aplicando. O Primeiro contato com o setor de desenvolvimento, foi no projeto de implementação de um novo ERP, onde fui Key User. Interesse em tecnologia e inovação foram cruciais para a decisão da transição de carreira.<br>Facilidade para me adaptar as novas funções, em diferentes tipos de negócios, trabalhando em equipe, agilidade para novos aprendizados, motivação por desafios e desenvolvimento de habilidades.<br>Atualmente estou desenvolvendo habilidades em React, JavaScript, HTML e CSS.",
     "skills": {
       "hardSkills": [
@@ -41,13 +42,33 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Pokedex - Pokemon",
+        "url": "https://github.com/RenanFrancaDev/pokedex",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "TO DO list",
+        "url": "https://github.com/RenanFrancaDev/ToDolist",
+        "github": true
+      },
+      {
+        "name": "Simulador - Boletim de Turma",
+        "url": "https://github.com/RenanFrancaDev/mediaAlunos",
+        "github": true
+      },
+      {
+        "name": "Calculadora - React",
+        "url": "https://github.com/RenanFrancaDev/Calculadora-React",
+        "github": true
+      },
+      {
+        "name": "Site Apple - Clone",
+        "url": "https://github.com/RenanFrancaDev/Apple",
+        "github": true
+      },
+      {
+        "name": "Memory Game",
+        "url": "https://github.com/RenanFrancaDev/MemoryGame",
         "github": true
       }
     ],
