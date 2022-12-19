@@ -12,6 +12,12 @@ function updateProfileInfo(profileData) {
 
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
+    console.log(location)
+
+    const github = document.getElementById('profile.github')
+    github.innerText = profileData.github
+    github.href = `tel:${profileData.github}`
+    console.log(github)
 
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
@@ -20,6 +26,13 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+}
+
+function updateAboutMe(profileData) {
+    const aboutMe = document.getElementById('profile.about')
+    const paragraf = profileData.about.split('<br>')
+    aboutMe.innerHTML = paragraf.join('<br><br>')
+    
 }
 
 function updateSoftSkills(profileData) {
@@ -64,6 +77,8 @@ function updateProfessionalExperience(profileData) {
 
 (async () => {
     const profileData = await fetchProfileData()
+    // console.log(profileData)
+    updateAboutMe(profileData)
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
