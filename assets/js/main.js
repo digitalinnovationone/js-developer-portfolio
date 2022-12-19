@@ -12,9 +12,12 @@ function updateProfileInfo(profileData) {
 
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
+    console.log(location)
 
     const github = document.getElementById('profile.github')
     github.innerText = profileData.github
+    github.href = `tel:${profileData.github}`
+    console.log(github)
 
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
