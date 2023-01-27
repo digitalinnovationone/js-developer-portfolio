@@ -11,19 +11,31 @@
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/html.png"
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/css.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/js.png"
         },
         {
           "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/react.png"
+        },
+          {
+          "name": "Typescript",
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/typescript.png"
+        },
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "GitHub",
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/github.png"
         }
       ],
       "softSkills": [
@@ -41,6 +53,16 @@
       "Espanhol (básico)"
     ],
     "portfolio": [
+         {
+        "name": "DIO - Clone",
+        "url": "https://github.com/RenanFrancaDev/dio-clone",
+        "github": true
+      },
+         {
+        "name": "Login com validação",
+        "url": "https://github.com/RenanFrancaDev/login_validacao_React-TypeScript",
+        "github": true
+      },
       {
         "name": "Pokedex - Pokemon",
         "url": "https://github.com/RenanFrancaDev/pokedex",
@@ -54,11 +76,6 @@
       {
         "name": "Simulador - Boletim de Turma",
         "url": "https://github.com/RenanFrancaDev/mediaAlunos",
-        "github": true
-      },
-      {
-        "name": "Calculadora - React",
-        "url": "https://github.com/RenanFrancaDev/Calculadora-React",
         "github": true
       },
       {
