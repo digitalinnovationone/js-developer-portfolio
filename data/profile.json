@@ -1,11 +1,8 @@
 {
-  "nome": "Yuri G. Santana de Sá",
-  "titulo": "Junior Developer",
-  "localidade": {
-    "cidade": "Embu",
-    "estado": "São Paulo",
-    "pais": "Brasil"
-  },
+  "name": "Yuri G. Santana de Sá",
+  "photo": "https://avatars.githubusercontent.com/u/85082875?v=4",
+  "job": "Junior Developer",
+  "location": "Embu das Artes - SP",
   "telefone": "(11) 96178-0784",
   "email": "yuri_santana@educadventista.org",
   "skills": {
