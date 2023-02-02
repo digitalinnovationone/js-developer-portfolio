@@ -1,32 +1,32 @@
 {
-  "nome": "Venilton FalvoJr",
-  "titulo": "Education Tech Lead na DIO",
+  "nome": "Yuri G. Santana de Sá",
+  "titulo": "Junior Developer",
   "localidade": {
-    "cidade": "Araraquara",
+    "cidade": "Embu",
     "estado": "São Paulo",
     "pais": "Brasil"
   },
-  "telefone": "(16) 99721-8281",
-  "email": "venilton@dio.me",
+  "telefone": "(11) 96178-0784",
+  "email": "yuri_santana@educadventista.org",
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
+        "nome": "HTML",
         "logo": "TODO"
       },
       {
-        "nome": "Java",
+        "nome": "CSS",
         "logo": "TODO"
       },
       {
-        "nome": "Kotlin",
+        "nome": "JavaScript",
         "logo": "TODO"
       }
     ],
     "softSkills": [
       "Comunicação",
       "Empatia",
-      "Poder de Sedução Imcomparável"
+      "Poder de Sedução Incomparável"
     ]
   },
   "idiomas": [
@@ -36,10 +36,6 @@
     },
     {
       "nome": "Inglês",
-      "nivel": "Intermediário"
-    },
-    {
-      "nome": "Espanhol",
       "nivel": "Básico"
     }
   ],
@@ -49,79 +45,62 @@
       "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
       "instituicao": "Digital Innovation One (DIO)",
       "periodo": {
-        "inicio": "2019",
+        "inicio": "2022",
         "fim": "Atualmente"
       },
       "certificados": [
         {
-          "nome": "Formação: Blockchain Specialist (25h)",
-          "link": "https://www.dio.me/certificate/28601B02"
+          "nome": "Curso: Introdução ao Desenvolvimento Web com JavaScript",
+          "link": "https://www.dio.me/certificate/2660CCF2"
         },
         {
-          "nome": "Curso: Desenvolvimento Mobile Nativo Para Android",
-          "link": "https://www.dio.me/certificate/07041B99"
+          "nome": "Bootcamp: Database Experience",
+          "link": "https://www.dio.me/certificate/318C076D"
         },
         {
-          "nome": "Curso: Componentes, Layouts e UI/UX Em Apps Android",
-          "link": "https://www.dio.me/certificate/F12AC30B"
-        },
-        {
-          "nome": "Curso: Java e Kotlin Juntos!? Construindo Apps Android",
-          "link": "https://www.dio.me/certificate/3FB20BF1"
-        },
-        {
-          "nome": "Curso: Explorando o Firebase Para Apps Android Resiliente",
-          "link": "https://www.dio.me/certificate/BA099F34"
+          "nome": "Curso: Dominando Conceitos Avançados em JavaScript",
+          "link": "https://www.dio.me/certificate/538BDE43"
         }
       ]
     },
     {
-      "nome": "Doutorado em Engenharia de Software",
-      "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
-      "instituicao": "Universidade de São Paulo (USP)",
+      "nome": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "descricao": "",
+      "instituicao": "Universidade Adventista de São Paulo (UNASP - SP)",
       "periodo": {
-        "inicio": "2018",
+        "inicio": "2022",
         "fim": "Atualmente"
       }
     },
     {
-      "nome": "Mestrado em Engenharia de Software",
-      "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2012",
-        "fim": "2015"
-      }
-    },
-    {
-      "nome": "Bacharelado em Engenharia de Computação",
+      "nome": "Técnico em Eletroeletrônica",
       "descricao": "",
-      "instituicao": "Universidade de Araraquara (UNIARA)",
+      "instituicao": "Escola SENAI - 'Ary Torres'",
       "periodo": {
-        "inicio": "2007",
-        "fim": "2011"
+        "inicio": "2021",
+        "fim": "Atualmente"
       }
     }
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "nome": "Construa um Projeto Lógico de Banco de Dados",
+      "gitHub": "https://github.com/Player35Oficial/dio-desafio-SGBD/tree/main/Oficina",
+      "certificado": "https://www.dio.me/certificate/BDB4B7BD"
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "nome": "Construindo uma Pokedéx com JavaScript",
+      "gitHub": "https://github.com/Player35Oficial/js-developer-pokedex/tree/projeto-base",
+      "certificado": "https://www.dio.me/certificate/411E2B32"
     }
   ],
   "experiencias": [
     {
-      "nome": "Education Tech Lead ",
+      "nome": "Aprendiz Eletricista",
       "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
+      "instituicao": "Escola SENAI - 'Ary Torres'",
       "periodo": {
-        "inicio": "03/2021",
+        "inicio": "07/2021",
         "fim": "Atualmente"
       }
     }
