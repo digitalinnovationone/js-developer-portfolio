@@ -1,13 +1,10 @@
 {
-  "nome": "Venilton FalvoJr",
-  "titulo": "Education Tech Lead na DIO",
-  "localidade": {
-    "cidade": "Araraquara",
-    "estado": "São Paulo",
-    "pais": "Brasil"
-  },
-  "telefone": "(16) 99721-8281",
-  "email": "venilton@dio.me",
+  "nome": "Jandui Junior",
+  "photo":"https://avatars.githubusercontent.com/u/109630188?v=4",
+  "job": "Estagiário Desenvolvedor JS - TecGeo",
+  "location": "João Pessoa - PB",
+  "phone": "(83) 98807-1609",
+  "email": "jandui.junior28@gmail.com",
   "skills": {
     "hardSkills": [
       {
