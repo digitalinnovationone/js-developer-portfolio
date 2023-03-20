@@ -94,14 +94,14 @@
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "nome": "Formação Javascript Developer",
+      "gitHub": "https://github.com/juniorfjj/js-developer-pokedex",
+      "certificado": "https://www.dio.me/certificate/4A363221/share"
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "nome": "Criando uma Pokedex com HTML, CSS e Javascript",
+      "gitHub": "https://github.com/juniorfjj/js-developer-pokedex",
+      "certificado": "https://www.dio.me/certificate/4A363221/share"
     }
   ],
   "experiencias": [
