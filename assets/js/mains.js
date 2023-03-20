@@ -35,8 +35,27 @@ function updateHardSkillsInfos(profileData) {
 
 function updateLanguages(profileData) {
     const languages = document.getElementById('profile_languages')
-    console.log(languages)
     languages.innerHTML = profileData.idiomas.map (language => `<li>${language.nome} (${language.nivel})</li>`).join('')
+}
+
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile_portfolio')
+    portfolio.innerHTML = profileData.portfolio.map (experience => `<li>
+    <h3 class="title github">${experience.nome}</h3>
+    <a href="${experience.gitHub}" target="_blank">${experience.gitHub}</a><br><br>
+    <a href="${experience.certificado}" target="_blank">CERTIFICADO</a>
+</li>`).join('')
+}
+
+function updateExperiences(profileData) {
+    const experiences = document.getElementById('profile_experience')
+    experiences.innerHTML = profileData.experiencias.map (experience => `<li>
+    <h3 class="title">${experience.nome} / ${experience.instituicao}</h3>
+    <p class="period">${experience.periodo.inicio} - ${experience.periodo.fim}</p>
+    <p>
+        ${experience.descricao}
+    </p>
+</li>`).join('')
 }
 
 
@@ -52,5 +71,7 @@ function updateLanguages(profileData) {
     updateSoftSkillsInfos(profileData)
     updateHardSkillsInfos(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
+    updateExperiences(profileData)
 })()
 
