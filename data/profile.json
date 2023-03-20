@@ -39,17 +39,17 @@
     },
     {
       "nome": "Espanhol",
-      "nivel": "Básico"
+      "nivel": "Intermediário"
     }
   ],
   "educacao": [
     {
-      "nome": "dio.me",
-      "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
-      "instituicao": "Digital Innovation One (DIO)",
+      "nome": "CST em Análise e Desenvolvimento de Sistemas",
+      "descricao": "",
+      "instituicao": "Faculdade Cruzeiro do Sul",
       "periodo": {
-        "inicio": "2019",
-        "fim": "Atualmente"
+        "inicio": "2022",
+        "fim": "2023"
       },
       "certificados": [
         {
@@ -75,30 +75,12 @@
       ]
     },
     {
-      "nome": "Doutorado em Engenharia de Software",
-      "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2018",
-        "fim": "Atualmente"
-      }
-    },
-    {
-      "nome": "Mestrado em Engenharia de Software",
-      "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2012",
-        "fim": "2015"
-      }
-    },
-    {
-      "nome": "Bacharelado em Engenharia de Computação",
+      "nome": "Bacharelado em Engenharia Ambiental",
       "descricao": "",
-      "instituicao": "Universidade de Araraquara (UNIARA)",
+      "instituicao": "FPB",
       "periodo": {
-        "inicio": "2007",
-        "fim": "2011"
+        "inicio": "",
+        "fim": "2015"
       }
     }
   ],
@@ -116,12 +98,32 @@
   ],
   "experiencias": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
+      "nome": "Estágio Desenvolvedor Javascript",
+      "descricao": "Estagiário em Desenvolvimento Javascript ",
+      "instituicao": "TecGeo - Tecnologia em Geoprocessamento",
       "periodo": {
-        "inicio": "03/2021",
+        "inicio": "08/2022",
         "fim": "Atualmente"
+      }
+    },
+
+    {
+      "nome": "Chefe da Divisão de Estudos Climáticos",
+      "descricao": "Chefe da Divisão de Estudos Climáticos da Secretaria de Meio Ambiente de João Pessoa",
+      "instituicao": "Secretaria de Meio Ambiente de João Pessoa - SEMAM",
+      "periodo": {
+        "inicio": "01/2022",
+        "fim": "Atualmente"
+      }
+    },
+
+    {
+      "nome": "Engenheiro Ambiental na DIEP/SEMAM",
+      "descricao": "Engenheiro Ambiental na Diretoria de Estudos e Pesquisas Ambientais da Secretaria de Meio Ambiente de João Pessoa",
+      "instituicao": "Secretaria de Meio Ambiente de João Pessoa - SEMAM",
+      "periodo": {
+        "inicio": "01/2013",
+        "fim": "12/2022"
       }
     }
   ]
