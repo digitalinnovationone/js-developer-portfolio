@@ -28,8 +28,12 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/git.png"
       },
       {
-        "name": "python",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
+        "name": "java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },    
+      {
+        "name": "angular",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
       }
     ],
     "softSkills": [
@@ -58,7 +62,7 @@
   ],
   "professionalExperience": [
     {
-      "name": "Santander Bootcamp 2023 - Ciência de Dados com Python",
+      "name": "Bootcamp Fullstack Java+Angular",
       "period": "16/08/2023 a 22/10/2023",
       "description": "um grande aprendizado."
     }
