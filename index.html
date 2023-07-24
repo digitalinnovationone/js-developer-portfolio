@@ -3,118 +3,147 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
-
+    <title>Portfólio de Rafael</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
-
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeons.css">
+    <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="stylesheet" href="/assets/css/experiencies.css">
+    <link rel="stylesheet" href="/assets/css/skills.css ">
 </head>
 
 <body>
-    <main class="main">
+    <div class="container">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
-
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
-
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
-                </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
-                </p>
-            </div>
-        </header>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
-
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
-                        </ul>
-                    </section>
-
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                        </ul>
-                    </section>
+            <img src="./assets/img/profile.jpg" alt="Foto perfil de Rafael">
+            <div class="info">
+                <h1 class="title">Olá,<br>
+                    eu sou o<br>
+                    Rafael Schenkel
+                </h1>
+                <div class="details">
+                    <p class="job">Desenvolvedor Full Stack JavaScript</p>
+                    <p class="linkedin"><a href="https://www.linkedin.com/in/rafaschenkeldev/" target="_blank"
+                            rel="noopener noreferrer">Rafaschenkeldev</a></p>
+                    <p class="location"><a
+                            href="https://www.google.com.br/maps/place/Novo+Hamburgo+-+Hamburgberg,+Novo+Hamburgo+-+RS/@-29.6905777,-51.1502104,13z/data=!4m6!3m5!1s0x9519424ad6403661:0x5d959f79a24a61c8!8m2!3d-29.683463!4d-51.1337471!16s%2Fg%2F11bc6ynhx4?entry=ttu"
+                            target="_blank" rel="noopener noreferrer">Novo Hamburgo - RS</a></p>
+                    <p class="phone"><a href="https://wa.me/5551994299555" target="_blank">(51) 9 9429-9555</a></p>
+                    <p class="email"><a href="mailto:rafaschenkel.dev@gmail.com"
+                            target="_blank">rafaschenkel.dev@gmail.com</a></p>
                 </div>
             </div>
-        </section>
+        </header>
+        <main>
+            <session class="acordeons">
+                <!-- Acordeon skills -->
+                <div class="acordeon">
+                    <button class="trigger" type="button">Skills</button>
+                    <div class="content">
+                        <!-- Conteudo do acordeon -->
+                        <div class="skills">
+                            <div class="tools">
+                                <h3>Linguagens / Frameworks:</h3>
+                                <ul class="tools-list">
+                                    <li>
+                                        <img class="tools-img html" src="/assets/img/icons/tecnologias/html5.png"
+                                            alt="icone html5.png">
+                                    </li>
+                                    <li>
+                                        <img class="tools-img css" src="/assets/img/icons/tecnologias/css.png"
+                                            alt="icone css.png">
+                                    </li>
+                                    <li>
+                                        <img class="tools-img" src="/assets/img/icons/tecnologias/js.png"
+                                            alt="icone js.png">
+                                    </li>
+                                    <li>
+                                        <img class="tools-img react" src="/assets/img/icons/tecnologias/react.png"
+                                            alt="icone react.png">
+                                    </li>
+                                    <li>
+                                        <img class="tools-img" src="/assets/img/icons/tecnologias/nodejs.png"
+                                            alt="icone nodejs.png">
+                                    </li>
+                                    <li>
+                                        <img class="tools-img mongodb" src="/assets/img/icons/tecnologias/mongodb.png"
+                                            alt="icone mongodb.png">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="personal">
+                                <h3>Habilidades pessoais:</h3>
+                                <ul class="personal-skills">
+                                    <li>Liderança</li>
+                                    <li>Comunicação</li>
+                                    <li>Trabalho em equipe</li>
+                                    <li>Organizaçao</li>
+                                    <li>Comprometimento</li>
+                                    <li>Flexibilidade</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Acordeon de portfólio -->
+                <div class="acordeon">
+                    <button class="trigger" type="button">Portfólio</button>
+                    <div class="content">
+                        <!-- Conteudo do acordeon -->
+                        <ul class="projects">
+                            <li class="project">
+                                <h3 class="project-title">Projeto DevSteam criado com React</h3>
+                                <a href="https://github.com/rafaschenkel/devsteam"
+                                    target="_blank">https://github.com/rafaschenkel/devsteam</a>
+                            </li>
+                            <li class="project">
+                                <h3 class="project-title">Projeto AppMovies criado com React</h3>
+                                <a href="https://github.com/rafaschenkel/app-movies"
+                                    target="_blank">https://github.com/rafaschenkel/app-movies</a>
+                            </li>
+                            <li class="project">
+                                <h3 class="project-title">Projeto Pokedex criado com JavaScript</h3>
+                                <a href="https://github.com/rafaschenkel/js-developer-pokedex"
+                                    target="_blank">https://github.com/rafaschenkel/js-developer-pokedex</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Acordeon de Experiência -->
+                <div class="acordeon">
+                    <button class="trigger" type="button">Experiência Profissional</button>
+                    <div class="content">
+                        <!-- Conteudo do acordeon -->
+                        <ul class="experiencies">
+                            <li class="experience">
+                                <h3>Conferente Noturno</h3>
+                                <p class="company">Mk Comercio de Embalagens LTDA</p>
+                                <p class="time">2018 - Atualmente</p>
+                                <p class="descriptio">Conferência de carga e separação de mercadorias</p>
+                            </li>
+                            <li class="experience">
+                                <h3>Conferente Noturno</h3>
+                                <p class="company">Hamburgo Plast Distribuidora LTDA</p>
+                                <p class="time">2018 - Atualmente</p>
+                                <p class="descriptio">Conferência de carga e separação de mercadorias</p>
+                            </li>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
-
-            <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
-
-            <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
-                </ul>
-            </div>
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
-
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                </ul>
-            </div>
-        </section>
-
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
-    </main>
+                        </ul>
+                    </div>
+                </div>
+            </session>
+        </main>
+    </div>
 
     <script src="assets/js/acordeon.js"></script>
     <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

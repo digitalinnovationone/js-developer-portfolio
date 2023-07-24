@@ -3,94 +3,101 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    padding: 0;
 }
 
-.header::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 2rem;
-    height: 2rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('../img/icons/header.svg');
-}
-
-.header .photo {
+.header img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
+    filter: brightness(1.3) saturate(1.3);
+    object-fit: cover;
 }
 
-.header .title {
-    font-family: 'Neue Machina';
-    text-align: center;
-}
-
-.information {
+.info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
 }
 
-.information p {
+.title {
+    font-family: 'Neue Machina';
+    font-size: 2.25rem;
+}
+
+.details {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: .5rem;
-    font-size: 1.125rem;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.information p::before {
+.details p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.details p::before {
     content: '';
+    width: 1.25rem;
+    height: 1.25rem;
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    margin-right: .5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: .5rem;
+    background-position: center;
 }
 
-.information .job::before {
-    background-image: url('../img/icons/job.svg');
+.job::before {
+    background-image: url('../img/icons/profile/job.png');
 }
 
-.information .location::before {
-    background-image: url('../img/icons/location.svg');
+.linkedin::before {
+    background-image: url('../img/icons/profile/linkedin.png');
 }
 
-.information .email::before {
-    background-image: url('../img/icons/email.svg');
+.location::before {
+    background-image: url('../img/icons/profile/location.svg');
 }
 
-.information .phone::before {
-    background-image: url('../img/icons/phone.svg');
+.phone::before {
+    background-image: url('../img/icons/profile/phone.svg');
 }
 
-@media only screen and (min-width: 768px) {
+.email::before {
+    background-image: url('../img/icons/profile/email.svg');
+}
+
+@media screen and (min-width: 400px) {
+    .header::after {
+        content: '';
+        background-image: url('../img/icons/points.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 2.5rem;
+        height: 2.5rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
     .header {
-        display: grid;
-        grid-template-areas:
-            "photo title"
-            "photo information"
-        ;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
     }
 
-    .header .photo {
-        grid-area: photo;
-        margin: 0 auto;
-    }
-
-    .header .title {
-        grid-area: title;
-        text-align: start;
-        max-width: 210px;
-    }
-
-    .header .information {
-        grid-area: information;
+    .title {
+        line-height: 3rem;
     }
 }
