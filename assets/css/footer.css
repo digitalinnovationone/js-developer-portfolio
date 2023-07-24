@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a img {
+    width: 100px;
+    height: 100px;
+}
