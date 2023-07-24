@@ -22,7 +22,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="./assets/img/profile.jpg" alt="Foto perfil de Rafael">
+            <img id="profile-photo" alt="...">
             <div class="info">
                 <h1 class="title">Olá,<br>
                     eu sou o<br>
@@ -48,43 +48,11 @@
                         <div class="skills">
                             <div class="tools">
                                 <h3>Linguagens / Frameworks:</h3>
-                                <ul class="tools-list">
-                                    <li>
-                                        <img class="tools-img html" src="/assets/img/icons/tecnologias/html5.png"
-                                            alt="icone html5.png">
-                                    </li>
-                                    <li>
-                                        <img class="tools-img css" src="/assets/img/icons/tecnologias/css.png"
-                                            alt="icone css.png">
-                                    </li>
-                                    <li>
-                                        <img class="tools-img" src="/assets/img/icons/tecnologias/js.png"
-                                            alt="icone js.png">
-                                    </li>
-                                    <li>
-                                        <img class="tools-img react" src="/assets/img/icons/tecnologias/react.png"
-                                            alt="icone react.png">
-                                    </li>
-                                    <li>
-                                        <img class="tools-img" src="/assets/img/icons/tecnologias/nodejs.png"
-                                            alt="icone nodejs.png">
-                                    </li>
-                                    <li>
-                                        <img class="tools-img mongodb" src="/assets/img/icons/tecnologias/mongodb.png"
-                                            alt="icone mongodb.png">
-                                    </li>
-                                </ul>
+                                <ul id="profile-hardskills" class="tools-list"></ul>
                             </div>
                             <div class="personal">
                                 <h3>Habilidades pessoais:</h3>
-                                <ul class="personal-skills">
-                                    <li>Liderança</li>
-                                    <li>Comunicação</li>
-                                    <li>Trabalho em equipe</li>
-                                    <li>Organizaçao</li>
-                                    <li>Comprometimento</li>
-                                    <li>Flexibilidade</li>
-                                </ul>
+                                <ul id="profile-softskills" class="personal-skills"></ul>
                             </div>
                         </div>
                     </div>
@@ -94,23 +62,7 @@
                     <button class="trigger" type="button">Portfólio</button>
                     <div class="content">
                         <!-- Conteudo do acordeon -->
-                        <ul class="projects">
-                            <li class="project">
-                                <h3 class="project-title">Projeto DevSteam criado com React</h3>
-                                <a href="https://github.com/rafaschenkel/devsteam"
-                                    target="_blank">https://github.com/rafaschenkel/devsteam</a>
-                            </li>
-                            <li class="project">
-                                <h3 class="project-title">Projeto AppMovies criado com React</h3>
-                                <a href="https://github.com/rafaschenkel/app-movies"
-                                    target="_blank">https://github.com/rafaschenkel/app-movies</a>
-                            </li>
-                            <li class="project">
-                                <h3 class="project-title">Projeto Pokedex criado com JavaScript</h3>
-                                <a href="https://github.com/rafaschenkel/js-developer-pokedex"
-                                    target="_blank">https://github.com/rafaschenkel/js-developer-pokedex</a>
-                            </li>
-                        </ul>
+                        <ul id="projects" class="projects"></ul>
                     </div>
                 </div>
                 <!-- Acordeon de Experiência -->
@@ -118,21 +70,7 @@
                     <button class="trigger" type="button">Experiência Profissional</button>
                     <div class="content">
                         <!-- Conteudo do acordeon -->
-                        <ul class="experiencies">
-                            <li class="experience">
-                                <h3>Conferente Noturno</h3>
-                                <p class="company">Mk Comercio de Embalagens LTDA</p>
-                                <p class="time">2018 - Atualmente</p>
-                                <p class="descriptio">Conferência de carga e separação de mercadorias</p>
-                            </li>
-                            <li class="experience">
-                                <h3>Conferente Noturno</h3>
-                                <p class="company">Hamburgo Plast Distribuidora LTDA</p>
-                                <p class="time">2018 - Atualmente</p>
-                                <p class="descriptio">Conferência de carga e separação de mercadorias</p>
-                            </li>
-
-                        </ul>
+                        <ul id="experiencies" class="experiencies"></ul>
                     </div>
                 </div>
             </session>

@@ -15,9 +15,10 @@
 }
 
 .tools-list {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    gap: 2rem;
 }
 
 .tools-img {
