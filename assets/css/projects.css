@@ -15,7 +15,7 @@
 
 .project h3::before {
     content: '';
-    background-image: url('assets/img/icons/github.svg');
+    background-image: url('../img/icons/github.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

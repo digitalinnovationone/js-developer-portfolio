@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('assets/fonts/neue-machina/neue-machina-regular.otf');
+    src: url('../fonts/neue-machina/neue-machina-regular.otf');
 }
 
 body {
