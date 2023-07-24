@@ -38,34 +38,19 @@ function updateInfos(profileData) {
 
 function updateHardSkills(profileData) {
   const ulHardSkills = document.querySelector('#profile-hardskills');
-  const hardSkills = profileData.skills.hardSkills
-    .map(hard => {
-      return `
-        <li>
-          <img class="tools-img html" src="${hard.logo}"
-            alt="icone ${hard.name}">
-        </li>
-      `;
-    })
+  ulHardSkills.innerHTML = profileData.skills.hardSkills
+    .map(hard => `<li><img class="tools-img html" src="${hard.logo}" alt="icone ${hard.name}"></li>`)
     .join('');
-  ulHardSkills.innerHTML = hardSkills;
 }
 
 function updateSoftSkills(profileData) {
   const ulSoftSkills = document.querySelector('#profile-softskills');
-  const softSkills = profileData.skills.softSkills
-    .map(soft => {
-      return `
-        <li>${soft}</li>
-      `;
-    })
-    .join('');
-  ulSoftSkills.innerHTML = softSkills;
+  ulSoftSkills.innerHTML = profileData.skills.softSkills.map(soft => `<li>${soft}</li>`).join('');
 }
 
 function updatePortfolio(profileData) {
   const ulProjects = document.querySelector('#projects');
-  const projects = profileData.portfolio
+  ulProjects.innerHTML = profileData.portfolio
     .map(proj => {
       return `
         <li class="project">
@@ -76,12 +61,11 @@ function updatePortfolio(profileData) {
       `;
     })
     .join('');
-  ulProjects.innerHTML = projects;
 }
 
 function updateExperienceProfessional(profileData) {
   const experiencies = document.querySelector('#experiencies');
-  const expProfessional = profileData.professionalExperience
+  experiencies.innerHTML = profileData.professionalExperience
     .map(exp => {
       return `
       <li class="experience">
@@ -93,5 +77,4 @@ function updateExperienceProfessional(profileData) {
     `;
     })
     .join('');
-  experiencies.innerHTML = expProfessional;
 }
