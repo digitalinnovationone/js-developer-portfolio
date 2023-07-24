@@ -1,73 +1,80 @@
+(async () => {
+  const profileData = await fetchProfileData();
+  updateInfos(profileData);
+  updateHardSkills(profileData);
+  updateSoftSkills(profileData);
+  updatePortfolio(profileData);
+  updateExperienceProfessional(profileData);
+})();
 
-function updateProfileInfo(profileData) {
-    const photo = document.getElementById('profile.photo')
-    photo.src = profileData.photo
-    photo.alt = profileData.name
+function updateInfos(profileData) {
+  const photo = document.querySelector('#profile-photo');
+  photo.setAttribute('src', `${profileData.photo}`);
 
-    const name = document.getElementById('profile.name')
-    name.innerText = profileData.name
+  const name = document.querySelector('#profile-name');
+  name.innerText = profileData.name;
 
-    const job = document.getElementById('profile.job')
-    job.innerText = profileData.job
+  const job = document.querySelector('#profile-job');
+  job.innerText = profileData.job;
 
-    const location = document.getElementById('profile.location')
-    location.innerText = profileData.location
+  const linkedin = document.querySelector('#profile-linkedin');
+  linkedin.setAttribute('href', `${profileData.linkedin}`);
+  linkedin.innerText = profileData.linkedin.replace('https://www.linkedin.com/in/', '');
 
-    const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
+  const location = document.querySelector('#profile-location');
+  location.innerText = profileData.location;
 
-    const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
-    email.href = `mailto:${profileData.email}`
-}
+  const phone = document.querySelector('#profile-phone');
+  phone.setAttribute(
+    'href',
+    `https://wa.me/+55${profileData.phone.replace('(', '').replace(')', '').replace(' ', '').replace('-', '')}`
+  );
+  phone.innerText = profileData.phone;
 
-function updateSoftSkills(profileData) {
-    const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+  const email = document.querySelector('#profile-email');
+  email.setAttribute('href', `mailto:${profileData.email}`);
+  email.innerText = profileData.email;
 }
 
 function updateHardSkills(profileData) {
-    const hardSkills = document.getElementById('profile.skills.hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+  const ulHardSkills = document.querySelector('#profile-hardskills');
+  ulHardSkills.innerHTML = profileData.skills.hardSkills
+    .map(hard => `<li><img class="tools-img html" src="${hard.logo}" alt="icone ${hard.name}"></li>`)
+    .join('');
 }
 
-function updateLanguages(profileData) {
-    const languages = document.getElementById('profile.languages')
-    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
+function updateSoftSkills(profileData) {
+  const ulSoftSkills = document.querySelector('#profile-softskills');
+  ulSoftSkills.innerHTML = profileData.skills.softSkills.map(soft => `<li>${soft}</li>`).join('');
 }
 
 function updatePortfolio(profileData) {
-    const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(project => {
-        return `
-            <li>
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                <a href="${project.url}" target="_blank">${project.url}</a>
-            </li>
-        `
-    }).join('')
+  const ulProjects = document.querySelector('#projects');
+  ulProjects.innerHTML = profileData.portfolio
+    .map(proj => {
+      return `
+        <li class="project">
+          <h3 class="project-title">${proj.name}</h3>
+          <a href="${proj.url}"
+              target="_blank">https://github.com/rafaschenkel/devsteam</a>
+        </li>
+      `;
+    })
+    .join('');
 }
 
-function updateProfessionalExperience(profileData) {
-    const professionalExperience = document.getElementById('profile.professionalExperience')
-    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-        return `
-            <li>
-                <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
-                <p>${experience.description}</p>
-            </li>
-        `
-    }).join('')
+function updateExperienceProfessional(profileData) {
+  const experiencies = document.querySelector('#experiencies');
+  experiencies.innerHTML = profileData.professionalExperience
+    .map(exp => {
+      return `
+      <li class="experience">
+        <h3>${exp.name}</h3>
+        <p class="company">${exp.company}</p>
+        <p class="time">${exp.period}</p>
+        <p class="descriptio">${exp.description}</p>
+      </li>
+    `;
+    })
+    .join('');
 }
-
-(async () => {
-    const profileData = await fetchProfileData()
-    updateProfileInfo(profileData)
-    updateSoftSkills(profileData)
-    updateHardSkills(profileData)
-    updateLanguages(profileData)
-    updatePortfolio(profileData)
-    updateProfessionalExperience(profileData)
-})()

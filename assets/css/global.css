@@ -1,67 +1,93 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('../fonts/neue-machina-regular.otf');
+    src: url('../fonts/neue-machina/neue-machina-regular.otf');
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 46px;
     background-color: #000;
+    /* background: linear-gradient(140deg, rgba(124, 12, 123, 1) 0%, rgba(16, 47, 73, 1) 10%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 65%, rgba(16, 47, 73, 1) 80%, rgba(124, 12, 123, 1) 90%);
+    background-repeat: no-repeat; */
     color: #fff;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.main {
+.container {
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     border: 1px solid #fff;
     border-radius: 1rem;
+    max-width: 1000px;
 }
 
-.main::before,
-.main::after {
+.container::before {
     content: '';
-    background-image: url('../img/background.svg');
+    background-image: url('../img/background/top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
     position: fixed;
     top: 0;
     left: 0;
-    width: 140vw;
-    height: 100vh;
+    width: 50vh;
+    height: 50vh;
     z-index: -1;
 }
 
-.main::after {
+.container::after {
     content: '';
-    top: auto;
-    left: auto;
+    background-image: url('../img/background/bottom.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
     bottom: 0;
     right: 0;
+    width: 50vh;
+    height: 50vh;
+    z-index: -1;
     transform: rotate(180deg);
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
 
-@media only screen and (min-width: 768px) {
-    .main {
-        max-width: 1024px;
-        margin: 1rem auto;
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: .25rem;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container::before {
+        width: 100vh;
+        height: 100vh;
     }
 
-    .main::before,
-    .main::after {
-        width: 70vw;
+    .container::after {
+        width: 100vh;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        margin: 1rem auto;
     }
 }
