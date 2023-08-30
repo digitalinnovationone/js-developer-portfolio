@@ -62,6 +62,11 @@
     background-image: url('../img/icons/location.svg');
 }
 
+.information .github::before {
+    background-image: url('../img/icons/github.svg');
+    color:blueviolet;
+}
+
 .information .email::before {
     background-image: url('../img/icons/email.svg');
 }
@@ -87,7 +92,7 @@
     .header .title {
         grid-area: title;
         text-align: start;
-        max-width: 210px;
+        max-width: 600px;
     }
 
     .header .information {

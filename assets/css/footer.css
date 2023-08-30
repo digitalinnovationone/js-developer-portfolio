@@ -2,11 +2,6 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1rem;
-}
-
-footer img {
-    max-width: 100px;
+    justify-content: center;
+    padding-top: 1rem;
 }
