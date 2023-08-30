@@ -34,6 +34,10 @@
           "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/nodejs.png"
         },
         {
+          "name": "Data²",
+          "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/data2.png"
+        },
+        {
           "name": "GitHub",
           "logo": "https://raw.githubusercontent.com/RenanFrancaDev/developer-portfolio/main/data/imgs/github.png"
         }
@@ -90,6 +94,16 @@
       }
     ],
     "professionalExperience": [
+      {
+        "name": "Desenvolvedor Web / Mauá Bank",
+        "period": "2023",
+        "description": "Desenvolvedor Web, atuando como freelance. Site criado com React.js"
+      },
+      {
+        "name": "Desenvolvedor / Data²",
+        "period": "2023",
+        "description": "Desenvolvedor de aplicativo pelo Builder Data², desenvolvendo soluções para empresas."
+      },
       {
         "name": "Comprador / Pan-Metal Indústia Metalúrgica Ltda.",
         "period": "2019 - 2022",
