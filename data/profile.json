@@ -1,23 +1,15 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Adelino Masioli",
+  "photo": "https://avatars.githubusercontent.com/u/2363796?v=4",
+  "job": "Software Engineer",
+  "location": "Vila Nova de Gaia - PT",
+  "phone": "+351 932 992 170",
+  "email": "adelinomasioli@gmail.com",
   "skills": {
     "hardSkills": [
       {
         "name": "Nodejs",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-      },
-      {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
       },
       {
         "name": "React",
@@ -40,39 +32,44 @@
       "Organização"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
-  ],
+  "languages": ["Português BR", "Inglês - B2"],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Curso Ministrado pela DIO para a criação de uma Pokedex",
+      "url": "https://github.com/adelino-masioli/js-developer-pokedex",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Curso Ministrado pela DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/adelino-masioli/js-developer-portfolio",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Software Engineer/ Solution17",
+      "period": "2020 - 2023",
+      "description": "My time at Solution17 was and will always be the best experience of my career. I learned a lot from the entire team and had the opportunity to share my knowledge."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Mobile Engineer/ PrimeIT",
+      "period": "2020 - 2020",
+      "description": "I was hired on a temporary basis to develop a mobile application focused on the medical and dental sector. In collaboration with the engineering team, we decided to create a hybrid application for Android and iOS using the React Native framework."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Senior Ruby on Rails Developer / DSOP",
+      "period": "2019 - 2020",
+      "description": "Working at this company was a fantastic experience. The team was mature and provided great support during the pandemic, which made me feel welcomed even though I was in Ireland. There were moments when I felt like I was in the office, alongside everyone else."
+    },
+    {
+      "name": "Software Engineer / Scoolook",
+      "period": "2018 - 2019",
+      "description": "My responsibilities included system maintenance, development of new features, and migration to a more modern and reactive stack. During the pandemic, many changes occurred, and the project came to an end, but the experience of being part of an amazing team remained."
+    },
+    {
+      "name": "Software Engineer / Loggia",
+      "period": "2012 - 2018",
+      "description": "During my time at Loggia, I had the opportunity to work with various technologies, primarily because our main client was the Banco Sicoob cooperative. Therefore, the developed applications encompassed a variety of scenarios, ranging from simple websites to Facebook applications, online stores, JavaScript animations, portals, and websites."
     }
   ]
 }

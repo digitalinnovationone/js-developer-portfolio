@@ -1,67 +1,67 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 @font-face {
-    font-family: 'Neue Machina';
-    src: url('../fonts/neue-machina-regular.otf');
+  font-family: "Neue Machina";
+  src: url("../fonts/neue-machina-regular.otf");
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .main {
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #fff;
-    border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  max-width: 500px;
 }
 
 .main::before,
 .main::after {
-    content: '';
-    background-image: url('../img/background.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 140vw;
-    height: 100vh;
-    z-index: -1;
+  content: "";
+  background-image: url("../img/background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 140vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 .main::after {
-    content: '';
-    top: auto;
-    left: auto;
-    bottom: 0;
-    right: 0;
-    transform: rotate(180deg);
+  content: "";
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
 }
 
-
 @media only screen and (min-width: 768px) {
-    .main {
-        max-width: 1024px;
-        margin: 1rem auto;
-    }
+  .main {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
 
-    .main::before,
-    .main::after {
-        width: 70vw;
-    }
+  .main::before,
+  .main::after {
+    width: 70vw;
+  }
 }
