@@ -1,78 +1,75 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Pablo Troli",
+  "photo": "https://avatars.githubusercontent.com/u/119256727?v=4",
+  "job": "Front-End Freelancer",
+  "location": "Praia Grande - SP",
+  "phone": "(13) 97418-1621",
+  "email": "pablotroli@outlook.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "JavaScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "TypeScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "Gulp",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "Sass",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
       }
     ],
     "softSkills": [
       "Empatia",
-      "Liderança",
+      "Criatividade na resolução de problemas",
       "Trabalho em equipe",
-      "Flexibilidade",
       "Organização"
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Português BR (Nativo)",
+    "Inglês (intermediário Avançado - B2)"  
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Gerenciador de Frotas",
+      "url": "https://github.com/DevTroli/Gerenciador_Frotas.git",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Pagina Clone do Star+",
+      "url": "https://github.com/DevTroli/clone_starplus",
+      "github": true
+    },
+    {
+      "name": "Site de uma loja de jogos Ficticia",
+      "url": "https://github.com/DevTroli/1UP_Games.git",
+      "github": true
+    },
+    {
+      "name": "Agenda de Contatos",
+      "url": "https://github.com/DevTroli/Agenda-de-Contatos.git",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Front-End Developer",
+      "period": "2023(Julho) - até o momento",
+      "description": "É um prazer fazer projetos reais para pessoas reais enquanto eu estou aprendendo mais sobre o mundo Front-End e construindo minhas próprias inovações para melhora para minha comunidade com autamações que agregam significativamente."
     }
   ]
 }
