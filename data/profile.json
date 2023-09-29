@@ -9,7 +9,7 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
       },
       {
         "name": "TypeScript",
@@ -24,16 +24,8 @@
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg"
       },
       {
-        "name": "Grunt",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grunt/grunt-original-wordmark.svg"
-      },
-      {
         "name": "Sass",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-      },
-      {
-        "name": "Less",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/less/less-plain-wordmark.svg"
       },
       {
         "name": "Bootstrap",
@@ -44,7 +36,6 @@
       "Empatia",
       "Criatividade na resolução de problemas",
       "Trabalho em equipe",
-      "Flexibilidade",
       "Organização"
     ]
   },
