@@ -56,13 +56,13 @@
   "portfolio": [
     {
       "name": "Introdução ao Desenvolvimento Moderno de Software",
-      "url": "https://www.dio.me/certificate/C7EF828A/share",
-      "github": true
+      "url": "https://hermes.digitalinnovation.one/certificates/C7EF828A.pdf?_gl=1*a3d7p4*_ga*OTM3OTk1OTcwLjE2NzgyOTYxNTU.*_ga_7GXMH3CQ72*MTY5NjUzODU1NS4xMTUuMS4xNjk2NTM5NzY1LjYwLjAuMA..",
+      "github": false
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
+      "name": "Lógica de Programação Essencial",
+      "url": "https://hermes.digitalinnovation.one/certificates/BA5F8F7B.pdf?_gl=1*rxn5g*_ga*OTM3OTk1OTcwLjE2NzgyOTYxNTU.*_ga_7GXMH3CQ72*MTY5NjUzODU1NS4xMTUuMS4xNjk2NTM5Njg2LjYwLjAuMA..",
+      "github": false
     }
   ],
   "professionalExperience": [
