@@ -1,5 +1,5 @@
 {
-  "name": "Anderson F  de Andrade",
+  "name": "Anderson F.  de Andrade",
   "photo": "https://avatars.githubusercontent.com/u/103543398?v=4",
   "job": "Técnico De Automação, fazendo transição de Carreira.",
   "location": "Teresópolis- RJ",
@@ -63,6 +63,11 @@
       "name": "Lógica de Programação Essencial",
       "url": "https://hermes.digitalinnovation.one/certificates/BA5F8F7B.pdf?_gl=1*rxn5g*_ga*OTM3OTk1OTcwLjE2NzgyOTYxNTU.*_ga_7GXMH3CQ72*MTY5NjUzODU1NS4xMTUuMS4xNjk2NTM5Njg2LjYwLjAuMA..",
       "github": false
+    },
+    {
+      "name": "Lógica de Programação Essencial",
+      "url": "",
+      "github": true
     }
   ],
   "professionalExperience": [
