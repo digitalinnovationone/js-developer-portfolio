@@ -1,78 +1,67 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Geovanny  Souza da Silva",
+  "photo": "https://avatars.githubusercontent.com/u/129237503?s=400&u=5bd1cf84a27a963cb5b95e97593c945ad5943c21&v=4",
+  "job": "Estudante Junior developer",
+  "location": "Brasilia",
+  "phone": "(61) 99201-8483",
+  "email": "geovannysds1233@gmail.com",
   "skills": {
     "hardSkills": [
+    
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "html",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
-        "name": "Java",
+        "name": "css",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "js",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name": "git",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/git.png"
+      },
+      {
+        "name": "java",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
+      },    
       {
-        "name": "Angular",
+        "name": "angular",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-      },
-      {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
-      "Empatia",
+      "Comunicativo",
       "Liderança",
       "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+      "Criatividade",
+      "Comprometimento"
     ]
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (intermediário)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Agentes de Valorant",
+      "url": "https://geovannysds.github.io/AGENTE/",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "API com stringBoot",
+      "url": "https://github.com/geovannysds/API-SpringBoot",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Santander Bootcamp 2023 - Backend Java",
+      "period": "16/08/2023 a 22/10/2023",
+      "description": "Participei de um bootcamp intensivo de Java Backend oferecido pelo Santander Bootcamp 2023 na plataforma da DIO, onde adquiri conhecimentos abrangentes em desenvolvimento Java. Durante o programa, cobrimos tópicos como programação em Java, uso de frameworks,  e gerenciamento de bancos de dados. Durante o bootcamp, concluí com êxito diversos projetos práticos, incluindo a criação de um aplicativo de gerenciamento de tarefas em Java e a integração de um banco de dados relacional. Obtive certificados de conclusão e fui reconhecido por minha capacidade de aplicar rapidamente os conhecimentos adquiridos em projetos  do mundo real. Essa experiência me equipou com habilidades essenciais em Java  Backend e uma base sólida para minha futura carreira como desenvolvedor Java. Estou comprometido com a aprendizagem contínua e ansioso para aplicar essas habilidades em desafios profissionais empolgantes"
     }
   ]
 }
