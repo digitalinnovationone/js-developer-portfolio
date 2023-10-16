@@ -7,10 +7,7 @@
   "email": "geovannysds1233@gmail.com",
   "skills": {
     "hardSkills": [
-      {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-      },
+    
       {
         "name": "html",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
@@ -55,16 +52,16 @@
       "github": true
     },
     {
-      "name": "pokedex",
-      "url": "https://github.com/geovannysds/js-developer-pokedex",
+      "name": "API com stringBoot",
+      "url": "https://github.com/geovannysds/API-SpringBoot",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Bootcamp Fullstack Java+Angular",
+      "name": "Santander Bootcamp 2023 - Backend Java",
       "period": "16/08/2023 a 22/10/2023",
-      "description": "um grande aprendizado."
+      "description": "Participei de um bootcamp intensivo de Java Backend oferecido pelo Santander Bootcamp 2023 na plataforma da DIO, onde adquiri conhecimentos abrangentes em desenvolvimento Java. Durante o programa, cobrimos tópicos como programação em Java, uso de frameworks,  e gerenciamento de bancos de dados. Durante o bootcamp, concluí com êxito diversos projetos práticos, incluindo a criação de um aplicativo de gerenciamento de tarefas em Java e a integração de um banco de dados relacional. Obtive certificados de conclusão e fui reconhecido por minha capacidade de aplicar rapidamente os conhecimentos adquiridos em projetos  do mundo real. Essa experiência me equipou com habilidades essenciais em Java  Backend e uma base sólida para minha futura carreira como desenvolvedor Java. Estou comprometido com a aprendizagem contínua e ansioso para aplicar essas habilidades em desafios profissionais empolgantes"
     }
   ]
 }
