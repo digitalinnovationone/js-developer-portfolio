@@ -1,10 +1,10 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Pedro Henrique Lustosa e Silva",
+  "photo": "https://github.com/account",
+  "job": "Mid-level, Full-Stack Software Engineering",
+  "location": "Olinda - PE",
+  "phone": "(81) 99926-7235",
+  "email": "pedroeternalss@gmail.com",
   "skills": {
     "hardSkills": [
       {
@@ -34,45 +34,43 @@
     ],
     "softSkills": [
       "Empatia",
-      "Liderança",
+      "Educado",
       "Trabalho em equipe",
       "Flexibilidade",
       "Organização"
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Português(Nativo)",
+    "Inglês (Básico)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "TCC UniNassau - Bacharelado Sistemas de informação",
+      "url": "https://github.com/Pedrolustosa/DotEco",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "ControlPersonalData is an innovative personal data management platform designed to give you total control over your information, prioritizing privacy and security.",
+      "url": "https://github.com/Pedrolustosa/ControlPersonalData",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Analista Desenvolvedor .NET - Pleno | Reply",
+      "period": "2023 - até o momento",
+      "description": "Atuar na resolução de problemas, independente das ferramentas e processos, Atuar de maneira cooperativa e em equipe, Desenvolvimento de aplicações com alto volume de transações Desenvolvimento de aplicações web; Levantamento e análise de requisitos e especificações"
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Anls, Full-Stack Developer | Avanade",
+      "period": "2021 - 2023",
+      "description": "Trabalho em um sistema na qual fico faço manutenção e criação de novos conteúdos para o sistema na qual sou alocado. Usando tecnologias ligada a Microsoft(.NET, Azure, AzureDevops) para o desenvolvimento e acompanhamento das histórias. Usamos métodologia ágil SCRUM para trazer uma melhor organização e entregas de qualidade ao nosso cliente. Além de usar o AngularJS para o Front e .NET/C# para o back. E para manipulação deses dados usamos bancos conhecidos como o SQLServer, Oracle e MongoDB."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Estagiário de Desenvolvimento C# .NET Core | Rueda&Rueda",
+      "period": "2020 - 2021",
+      "description": "Criação de sistemas e manutenção para os advogados com suas respectivos processos, também criava RPA com o Power Automate que é uma ferramenta da Microsoft para criação de BOTs."
     }
   ]
 }
