@@ -1,32 +1,39 @@
 {
-  "nome": "Venilton FalvoJr",
-  "titulo": "Education Tech Lead na DIO",
-  "localidade": {
-    "cidade": "Araraquara",
-    "estado": "São Paulo",
-    "pais": "Brasil"
-  },
-  "telefone": "(16) 99721-8281",
-  "email": "venilton@dio.me",
+  "nome": "Jandui Junior",
+  "photo":"https://avatars.githubusercontent.com/u/109630188?v=4",
+  "job": "Estagiário Desenvolvedor JS - TecGeo",
+  "location": "João Pessoa - PB",
+  "phone": "(83) 98807-1609",
+  "email": "jandui.junior28@gmail.com",
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
-        "logo": "TODO"
+        "name": "GIT",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/github.png"
       },
       {
-        "nome": "Java",
-        "logo": "TODO"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "nome": "Kotlin",
-        "logo": "TODO"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       }
     ],
     "softSkills": [
       "Comunicação",
-      "Empatia",
-      "Poder de Sedução Imcomparável"
+      "Trabalho em equipe",
+      "Organização",
+      "Vontade de aprender",
+      "Espírito colaborativo"
     ]
   },
   "idiomas": [
@@ -40,17 +47,17 @@
     },
     {
       "nome": "Espanhol",
-      "nivel": "Básico"
+      "nivel": "Intermediário"
     }
   ],
   "educacao": [
     {
-      "nome": "dio.me",
-      "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
-      "instituicao": "Digital Innovation One (DIO)",
+      "nome": "CST em Análise e Desenvolvimento de Sistemas",
+      "descricao": "",
+      "instituicao": "Faculdade Cruzeiro do Sul",
       "periodo": {
-        "inicio": "2019",
-        "fim": "Atualmente"
+        "inicio": "2022",
+        "fim": "2023"
       },
       "certificados": [
         {
@@ -76,53 +83,55 @@
       ]
     },
     {
-      "nome": "Doutorado em Engenharia de Software",
-      "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2018",
-        "fim": "Atualmente"
-      }
-    },
-    {
-      "nome": "Mestrado em Engenharia de Software",
-      "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2012",
-        "fim": "2015"
-      }
-    },
-    {
-      "nome": "Bacharelado em Engenharia de Computação",
+      "nome": "Bacharelado em Engenharia Ambiental",
       "descricao": "",
-      "instituicao": "Universidade de Araraquara (UNIARA)",
+      "instituicao": "FPB",
       "periodo": {
-        "inicio": "2007",
-        "fim": "2011"
+        "inicio": "",
+        "fim": "2015"
       }
     }
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "nome": "Formação Javascript Developer",
+      "gitHub": "https://github.com/juniorfjj/js-developer-pokedex",
+      "certificado": "https://www.dio.me/certificate/4244F1BF/share"
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "nome": "Criando uma Pokedex com HTML, CSS e Javascript",
+      "gitHub": "https://github.com/juniorfjj/js-developer-pokedex",
+      "certificado": "https://www.dio.me/certificate/4A363221/share"
     }
   ],
   "experiencias": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
+      "nome": "Estágio Desenvolvedor Javascript",
+      "descricao": "Estagiário em Desenvolvimento Javascript ",
+      "instituicao": "TecGeo - Tecnologia em Geoprocessamento",
       "periodo": {
-        "inicio": "03/2021",
+        "inicio": "08/2022",
         "fim": "Atualmente"
+      }
+    },
+
+    {
+      "nome": "Chefe da Divisão de Estudos Climáticos",
+      "descricao": "Chefe da Divisão de Estudos Climáticos da Secretaria de Meio Ambiente de João Pessoa",
+      "instituicao": "Secretaria de Meio Ambiente de João Pessoa - SEMAM",
+      "periodo": {
+        "inicio": "01/2022",
+        "fim": "Atualmente"
+      }
+    },
+
+    {
+      "nome": "Engenheiro Ambiental na DIEP/SEMAM",
+      "descricao": "Engenheiro Ambiental na Diretoria de Estudos e Pesquisas Ambientais da Secretaria de Meio Ambiente de João Pessoa",
+      "instituicao": "Secretaria de Meio Ambiente de João Pessoa - SEMAM",
+      "periodo": {
+        "inicio": "01/2013",
+        "fim": "12/2022"
       }
     }
   ]
