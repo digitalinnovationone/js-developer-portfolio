@@ -1,35 +1,40 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "name": "Jaqueline Melo",
+  "photo": "https://avatars.githubusercontent.com/u/89494904?v=4",
+  
   "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "location": "Guarujá SP",
+  "phone": "(13) 991111-0806",
+  "email": "jaquelinewebnet@gmail.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "C#.Net",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/c#.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "VsCode",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/vsCode.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
         "name": "Mongodb",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "MySql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png"
       }
     ],
     "softSkills": [
@@ -42,37 +47,35 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (intermediário)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Curso Ministrado na DIO .NET - API e Entity Framework",
+      "url": "https://github.com/JaquelineMeloA/trilha-net-api-desafio",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Desafio um Sistema de Cadastro de Funcionários e Hospedando na Nuvem Azure",
+      "url": "https://github.com/JaquelineMeloA/trilha-net-azure-desafio",
+      "github": true
+    },
+    {
+      "name": "Desafio do curso CRM Dynamic 365 com c#",
+      "url": "https://github.com/JaquelineMeloA/dio_DesafioII",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "GBM TECH & Control",
+      "period": "2021 - 2023",
+      "description": "<ul><li>Desenvolvimento de códigos seguindo boas práticas.Participação na migração de projeto Delphi para Api Rest C#. </li><li>Colaboração ativa com o Squad na resolução de problemas.</li><li>Condução de reuniões para levantamento de requisitos, validação, negociação de prioridades, status e validação das entregas com as áreas de negócio.</li></ul>"  
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Santos Brasil Participações S/A",
+      "period": "2003 - 2021",
+      "description": "<ul><li>Identificar e solucionar problemas técnicos complexos relacionados aos sistemas Operacionais e Faturamento e Comercial. </li><li>Realizei mapeamento eficiente de tabelas para ETL, garantindo uma integração eficaz com o banco de dados na ferramenta Qlik Sense.</li></li>Implementação de rotinas de coletor operacional, utilizando C# e WebServices nas novas unidades de negócio.Realizei a integração dos processos criados/atualizados e desenvolvi rotinas utilizando PL/SQL.</li> <li> Ministrei treinamento para usuários, capacitando-os na utilização eficaz dos sistemas da empresa.Análise e desenvolvimento de correções em sistemas internos.Prestei atendimento ágil de chamados, oferecendo suporte proativo aos usuários por telefone, e-mail e por meio de ferramentas de service desk.</li></ul>"
     }
   ]
 }
